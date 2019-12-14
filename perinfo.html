@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <body>
-  <p>A styled select menu.</p>
 
-<form>
-  <select id="country" name="country">
-  <option value="au">Australia</option>
-  <option value="ca">Canada</option>
-  <option value="usa">USA</option>
-  </select>
+<form action="/action_page.php">
+    <p>Are you vegetarian?</p>
+      <input type="radio" name="vege" value="veget"> Yes<br>
+      <input type="radio" name="vege" value="om"> No<br>
+
+    <p>What food allergies do you have?</p>
+      <select id="allergy" name="allergy">
+          <option value="mi">Milk</option>
+          <option value="eg">Egg</option>
+          <option value="tn">Tree Nuts</option>
+          <option value="tn">Peanuts</option>
+          <option value="tn">Wheat/Gluten</option>
+          <option value="na">None</option>
+      </select>
 </form>
 
 </body>
